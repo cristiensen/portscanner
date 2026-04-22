@@ -1,0 +1,43 @@
+# --- Frontend (Next.js / React) ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel
+.turbo
+
+# --- Backend (FastAPI / Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# --- Database (SQLite) ---
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# --- Environment & Secrets ---
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# --- OS & IDE Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+Microsoft/
